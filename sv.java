@@ -9,7 +9,7 @@ class aaa
 			{
 				if(j<=i)
 				{
-					System.out.print("@");
+					System.out.print("%");
 				}
 			}
 		System.out.println();
