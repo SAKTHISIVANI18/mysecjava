@@ -6,4 +6,10 @@ agent any
    
    stage('compile'){
     steps{
-     sh 'cd 
+     sh 'cd /var/lib/jenkins/workspace/npipe'
+       sh 'javac sv.java'
+       sh 'java aaa'
+    }
+   }
+   }
+}
